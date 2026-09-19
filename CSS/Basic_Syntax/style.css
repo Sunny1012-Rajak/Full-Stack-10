@@ -28,7 +28,3 @@ h1{
     background-color: lavender;
 }
 
-*
-{
-    background-image: -moz-element();
-}
