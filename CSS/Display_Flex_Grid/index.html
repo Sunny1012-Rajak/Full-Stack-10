@@ -20,15 +20,15 @@
 
     </div> -->
     <!-- ----------------------------------------------------------------------------------------------------------------- -->
-    
-        <!-- <div id="b">
+
+    <!-- <div id="b">
             <div class="a">Task 1 </div>
             <div class="a">Task 2</div>
             <div class="a">Task 3</div>
             <div class="a">Task 4</div>
         </div> -->
-     <!-- ---------------------------------------------------------------------------------------------------------------- -->
-        <!-- <hr>
+    <!-- ---------------------------------------------------------------------------------------------------------------- -->
+    <!-- <hr>
         <br>
         <hr>
         <div id="grid-outer">
@@ -41,25 +41,348 @@
            <div class="gd">g</div>
           
         </div> -->
-   <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ----------------------------------------------------------------------------------------------------------------------- -->
     <hr>
     <hr>
     <div class="outer">
         <fieldset>
             <legend>Personal Details</legend>
-            <div>
+            <div class="inner">
                 <label for="">Applicant name:</label>
-                <select name="Applicant name" id="Applicant name">
-                    <option value="">-select-</option>
-                    <option value="mr.">mr.</option>
-                    <option value="mrs.">mrs.</option>
-                </select>
-                <input type="text" name="Applicant name" id="Applicant name">
+                <div>
+                    <select name="Applicant name" id="Applicant name">
+                        <option value="">-select-</option>
+                        <option value="mr.">mr.</option>
+                        <option value="mrs.">mrs.</option>
+                    </select>
+                    <input type="text" name="Applicant name" id="Applicant name">
+                </div>
+
+                <label for="">Father's name:</label>
+                <div>
+                    <select name="father's name" id=Father's name">
+                        <option value="">-mr.-</option>
+                        <option value="mr.">mr.</option>
+                        <option value="shriman.">shriman.</option>
+                    </select>
+                    <input type="text" name="Father's name" id="Father's name">
+                </div>
+
+                <label for="">Mother's name:</label>
+                <div>
+                    <select name="Mother's name" id=Father's name">
+                        <option value="">-mr.-</option>
+                        <option value="mrs.">mrs.</option>
+                        <option value="shrimati.">shrimati.</option>
+                    </select>
+                    <input type="text" name="Mother's name" id="Mother's name">
+                </div>
+
+                <label for="">Gender</label>
+                <div>
+                    <input type="checkbox" name="gender" id="male">
+                    <span>male</span>
+                    <input type="checkbox" name="gender" id="female">
+                    <span>female</span>
+                    <input type="checkbox" name="gender" id="others">
+                    <span>others</span>
+                </div>
+
+                <label for="">Date of Birth</label>
+                <div>
+                    <input type="date" name="date" id="date">
+                </div>
+                <label for="">marital status</label>
+                <div>
+                    <select name="Marital status" id="marital status">
+                        <option value="">-select-</option>
+                        <option value="Married">Married</option>
+                        <option value="unmarried">unmarried</option>
+                    </select>
+                </div>
+
+                <label for="">category</label>
+                <div>
+                    <select name="category" id="category">
+                        <option value="">-select-</option>
+                        <option value="Gen">Gen</option>
+                        <option value="OBC">OBC</option>
+                        <option value="sc">sc</option>
+                        <option value="st">st</option>
+                    </select>
+                    <input type="text" name="category" id="category">
+                </div>
+
+                <label for="">handicapped</label>
+                <div>
+                    <input type="checkbox" name="handicapped" id="yes">
+                    <span>Yes</span>
+                    <input type="checkbox" name="handicapped" id="No">
+                    <span>No</span>
+                </div>
+
+                <label for="">Ex-serviceman</label>
+                <div>
+                    <input type="checkbox" name="handicapped" id="yes">
+                    <span>Yes</span>
+                    <input type="checkbox" name="handicapped" id="No">
+                    <span>No</span>
+                </div>
+
+                <label for="">EWS</label>
+                <div>
+                    <input type="checkbox" name="handicapped" id="yes">
+                    <span>Yes</span>
+                    <input type="checkbox" name="handicapped" id="No">
+                    <span>No</span>
+                </div>
+
+                <label for="">Religion</label>
+                <div>
+                    <select name="Religion" id="Religion">
+                        <option value="">-select-</option>
+                        <option value="hindu">hindu</option>
+                        <option value="muslim">muslim</option>
+                        <option value="punjabi">sc</option>
+                        <option value="gujrati">st</option>
+                    </select>
+                    <input type="text" name="Religion" id="Religion">
+                </div>
             </div>
         </fieldset>
-        
+        <fieldset>
+            <legend>contact details</legend>
+            <div class="inner">
+
+                <label for="">phone</label>
+                <div>
+                    <input type="number" name="mobile number" id="phone">
+                </div>
+
+
+                <label for="">Email ID</label>
+                <div>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <label for="">Address 1</label>
+                <div>
+                    <input type="text" name="address 1" id="address 1">
+                </div>
+
+                <label for="">Address 2</label>
+                <div>
+                    <input type="text" name="address 2" id="address 2">
+                </div>
+                <label for="">city</label>
+                <div>
+
+                    <input type="text" name="city" id="city">
+                </div>
+                <label for="">state</label>
+                <div>
+
+                    <select name="state" id="state">
+                        <option value="">-select-</option>
+                        <option value="madhya pradesh">madhya pradesh</option>
+                        <option value="andhra pradesh">andhra pradesh</option>
+                        <option value="himachal pradesh">himachal pradesh</option>
+                    </select>
+                </div>
+                <label for="">pin code</label>
+                <div>
+
+                    <input type="number" name="pin code" id="pin code">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Qualification Details</legend>
+            <div class="inner1">
+                <label for="">Sr.No</label>
+                <label for="">Qualification</label>
+                <label for="">Board/University</label>
+                <label for="">Passing Year</label>
+                <label for="">Max Marks</label>
+                <label for="">Marks Obtain</label>
+                <label for="">Percentage</label>
+
+                <div>
+                    <label for="">1</label>
+                </div>
+
+                <div>
+                    <select name="qualification" id="qualification">
+                        <option value="">--select--</option>
+                    </select>
+                </div>
+                <div>
+
+                    <input type="text" name="Board/University" id="Board/University">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Passing year" id="Passing year">
+                </div>
+
+
+                <div>
+                    <input type="number" name="Max Marks" id="Max Marks">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Marks Obtain" id="Marks Obtain">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Percentage" id="Percentage">
+                </div>
+                <div>
+                    <label for="">2</label>
+                </div>
+                <div>
+                    <select name="qualification" id="qualification">
+                        <option value="">--select--</option>
+                    </select>
+                </div>
+
+                <div>
+
+                    <input type="text" name="Board/University" id="Board/University">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Passing year" id="Passing year">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Max Marks" id="Max Marks">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Marks Obtain" id="Marks Obtain">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Percentage" id="Percentage">
+                </div>
+                <div>
+                    <label for="">3</label>
+                </div>
+                <div>
+                    <select name="qualification" id="qualification">
+                        <option value="">--select--</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="text" name="Board/University" id="Board/University">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Passing year" id="Passing year">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Max Marks" id="Max Marks">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Marks Obtain" id="Marks Obtain">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Percentage" id="Percentage">
+                </div>
+                <div>
+                    <label for="">4</label>
+                </div>
+                <div>
+                    <select name="qualification" id="qualification">
+                        <option value="">--select--</option>
+                    </select>
+                </div>
+
+                <div>
+
+                    <input type="text" name="Board/University" id="Board/University">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Passing year" id="Passing year">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Max Marks" id="Max Marks">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Marks Obtain" id="Marks Obtain">
+                </div>
+
+                <div>
+
+                    <input type="number" name="Percentage" id="Percentage">
+                </div>
+            </div>
+
+
+        </fieldset>
+        <fieldset>
+             <legend>Language Knowledge</legend>
+
+            <div class="inner">
+               
+                <label for=""> Language</label>
+                <label for="">Reading</label>
+                <label for="">Writing</label>
+                <label for="">Spoken</label>
+
+                <div>
+                    <label for="">Hindi</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="reading" id="reading">
+                </div>
+                <div>
+                    <input type="checkbox" name="writing" id="writing">
+                </div>
+                <div>
+                    <input type="checkbox" name="spoken" id="spoken">
+                </div>
+                <div>
+                    <label for="">English</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="reading" id="reading">
+                </div>
+                <div>
+                    <input type="checkbox" name="writing" id="writing">
+                </div>
+                <div>
+                    <input type="checkbox" name="spoken" id="spoken">
+                </div>
+            </div>
+        </fieldset>
+
 
     </div>
+
+
 </body>
 
 </html>
