@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Playwrite+CA+Guides&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.heading
+{
+    font-size: xx-large;
+    font-weight:bold ;
+     font-family: "Playwrite CA Guides", cursive;
+}
+
+.subheading
+{
+    font-size: x-large;
+    font-weight: 700;
+    font-style: italic;
+
+}
+#description span{
+    text-decoration-line: underline;
+    font-weight: bolder;
+    color: rgb(194, 27, 5);
+}
+
+main{
+
+    margin-top: 20px;
+    margin-left: 14px;
+}
+
+.pointer
+{
+    font-size: larger;
+    font-weight: 700;
+}
+ul{
+    list-style:"※";
+}
+ol{
+    list-style: "➡️";
+}
+
+#section1
+{
+   ul::first-line {
+    color: rgb(236, 8, 8);
+  }
+
+  ul li:last-child {
+    color: rgba(167, 6, 242, 0.975);
+  }
+
+  ul li:first-child ul li:last-child {
+    background-color: aquamarine;
+  }
+}
+
+
+footer
+{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+}
+

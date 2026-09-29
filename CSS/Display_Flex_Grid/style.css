@@ -11,7 +11,7 @@
 /* gap use when we need to create gap btw two data or content */
 /* justify-content: space-around ;
     align-items: end; */
-/* justofy property== baseline ,center ,end ,space-between ,space around */
+/* justify property== baseline ,center ,end ,space-between ,space around */
 /* margin: 50px;
     padding: 50px; 
 } */
@@ -47,7 +47,7 @@
 } */
 /* ----------------------------------------------------------------------------- */
 
-/* #grid-outer
+ #grid-outer
 {
     border: 1px solid #000;
     display: grid;
@@ -57,7 +57,7 @@
      column-gap: 50px;
     row-gap: 60px; 
 }
-
+/*
 .gd
 {
     width: 100px;
@@ -75,35 +75,35 @@
 
 .outer {
     border: 2px solid black;
-    padding: 2px;
-    margin: px;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 100px;
-    row-gap: 50px; */
+    padding: 4px;
+    margin: 4px;
+   
 }
 
 legend {
-    padding: 7px
+    padding: 7px;
+    margin-left: 20px;
 }
 
 .inner {
-    width: 1200px;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content:start;
     column-gap: 5px;
     row-gap: 5px;
-    height: auto;
-    /* overflow-y: auto; */
 }
 .inner1 {
-    width: 1200px;
+   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-content: start;
     column-gap: 5px;
     row-gap: 5px;
-    height: auto;
-    overflow-y: auto;
+}
+.inner2
+{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 2px;
 }
