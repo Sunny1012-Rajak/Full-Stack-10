@@ -1,0 +1,119 @@
+/* *
+{
+    margin:0;
+    padding: 0;
+}
+#hw
+{
+    width: 400px;
+    height: 2.5rem;
+    border: 1px solid rgb(201, 39, 30);
+    text-wrap-mode:nowrap ;
+    overflow: hidden;
+    color: green;
+     transition:
+      width 2s,
+      color 2s;
+}
+#hw:hover
+{
+    width: 600px;
+    color: red;
+    border-color: rgb(53, 235, 36);
+    transition: 
+    width 2s,
+    color 2s;
+
+}
+
+#welcome
+{
+    color: aliceblue;
+    background-color: brown;
+
+}
+#welcome::after{
+    content: "😎";
+}
+.d::before
+{
+content:" ✨";
+}
+
+#lock,lock2,lock3,lock4
+{
+    border: 1px solid green;
+    width: 20px;
+     transition: all 2s linear;
+}
+#lock:hover
+{
+    width: 100px;
+   
+    transition: all 2s linear;
+}
+#lock2:hover
+{
+    width: 100px;
+   
+    transition: all 2s ease-in;
+}
+#lock3:hover
+{
+    width: 100px;
+  
+    transition: all 2s ease-out;
+}
+#lock4:hover
+{
+    width: 100px;
+    
+    transition: all 2s ease-in-out ;
+} */
+
+
+/* ------------------------------------------------------------- */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#something
+{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: aliceblue;
+    position: absolute;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: sun 5s linear 2 ;
+}
+@keyframes sun {
+    0%
+    {
+        transform: rotatex(36000deg);
+        top:0;
+    left: 0;
+
+    }
+    25%
+    {
+        top: 0;
+        left: 500px;
+    }
+    50%
+    {
+        top: 500px;
+        left: 500px;
+    }
+    75%
+    {
+        top: 500px;
+        left: 0px;
+    }
+    100%
+    {
+        top: 0px;
+        left: 0px;
+    }
+}

@@ -1,0 +1,55 @@
+body
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+#card
+{
+    height: 400px;
+    width: 600px;
+    border: 3px solid blue;
+    display: flex;
+    justify-content:space-around;
+align-items: center;
+text-align: center;
+padding: 5px;
+box-shadow: 2px 2px 2px 2px gray;
+
+}
+#flower
+{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+#card:hover
+{
+ transform:translatey(-5px) ;
+ transition: transform 0.1s;
+
+ #flower:hover
+ {
+    transform: scale(1.2);
+    transition: transform 1s;
+ }
+}
+#button
+{
+    border: 1px solid rgb(169, 20, 20);
+    background-color: rgb(24, 105, 176);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 0px grey;
+}
+#button:hover{
+    background-color: rgb(86, 2, 2);
+    color: ;
+}
+#button:active
+{
+    background-color: pink;
+    transform: translate(2px,2px);
+    box-shadow: none;
+}

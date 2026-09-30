@@ -13,7 +13,7 @@
     position: sticky;
     top: 10px;
 }
-#menu
+ #menu
 {
     display: flex;
     gap: 15px;
@@ -31,15 +31,17 @@
      
         #button:hover
         {
-            background-color: aqua;
+            background-color: rgb(88, 198, 61);
             color: black;
+            border-color: rgb(127, 47, 121);
         }
         #button:active
         {
-            background-color: brown;
+            background-color: rgb(168, 207, 148);
             color: azure;
         }
 }
+        /* 
 #ask
 {
      padding: 5px 10px;
@@ -60,5 +62,4 @@
 {
     width: 500px;
     height: 500px;
-}
-
+} */
