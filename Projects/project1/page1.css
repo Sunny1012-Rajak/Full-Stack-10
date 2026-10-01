@@ -1,19 +1,59 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
+body
+{
+      background-color: #3b5d50 ;   
+}
 
-#header
+#header {
+    margin: 20px 0;
+    display: flex;
+    justify-content:space-around;
+    font-size:large;
+    align-items: center;
+    color: rgb(250, 249, 249);
+    a
+    {
+        text-decoration: none;
+        color:rgb(163, 163, 163);
+        opacity: 20px;  
+           
+    }
+    #icon
+    {
+        color:whitesmoke;
+    }
+
+    #furni
+    {
+        margin: 10px;
+        color:whitesmoke;
+    }
+}
+#main
+{
+   height: 100vh;
+   background-image: url("./dots-green.svg");
+  background: url("./couch.png");
+  background-size:650px;
+  background-position:right;
+  background-repeat: no-repeat;
+}
+#hed
+{
+    border: 2px solid red;
+    margin: 50px 40px;
+    font-size: 30px;
+}
+#content
+{
+    margin: 30px 40px;
+}
+.nav
 {
     display: flex;
-    justify-content: space-between;
-    font-size: larger;
-    gap: 50px;
-   opacity: 30px;
-}
-#bgcolor
-{
-    background-color: #3b5d50;
-    background-image: url("couch.png");
+    gap: 25px;
+    color: gray;
 }
