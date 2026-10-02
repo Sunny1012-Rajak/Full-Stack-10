@@ -3,53 +3,54 @@
     padding: 0;
 }
 
-body {
-
-    background-color: #3b5d50;
-}
-
-#header {
-    margin: 20px ;
-    display: flex;
-    justify-content: space-around;
-    font-size: large;
-    align-items: center;
-    color: rgb(250, 249, 249);
-
-    a 
-    {
-        text-decoration: none;
-        color: whitesmoke;
-    }
-
-    #icon {
-        color: whitesmoke;
-    }
-
-    #furni {
-        margin: 10px;
-        color: whitesmoke;
-    }
-}
-#header icons
+body
 {
-    k
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f3d35;
+}
+#header {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b5d50;
+    color: white;
+}
+
+.furni {
+    font-size: 17px;
+    margin: 10px;
+    margin-left: 26px;
+    /* padding-top: 14px; */
+    padding-left: 60px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .nav
-{
-    justify-content:space-around;
-}
-
-
-/* #main {
-    height: 100vh;
-    margin: 50px 100px 150px 50px;
-    background-image: url("./dots-green.svg");
-    background: url("./couch.png");
-    background-size: 650px;
-    background-position: right;
-    background-repeat: no-repeat;
+ {
     display: flex;
-    align-items: center;
-} */
-
+    gap: 25px;
+    
+}
+.nav a
+{
+    display: flex;
+    color:#d8e0dc;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 0px;
+    justify-content: space-around;
+    gap: 20px;
+}
+#main
+{
+    background-color: #3b5d50;
+    height: 403px;
+    img
+    {
+        border: 2px solid red;
+        width:600px;
+        align-self: self-end;
+    }
+}
