@@ -3,11 +3,10 @@
     padding: 0;
 }
 
-body
-{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #2f3d35;
+body {
+    font-family: sans-serif;
 }
+
 #header {
     height: 90px;
     display: flex;
@@ -18,39 +17,109 @@ body
 }
 
 .furni {
-    font-size: 17px;
+    font-size: 24px;
     margin: 10px;
-    margin-left: 26px;
+    margin-left: 30px;
     /* padding-top: 14px; */
     padding-left: 60px;
     color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
-.nav
- {
+
+.nav {
     display: flex;
-    gap: 25px;
-    
+    gap: 40px;
+
 }
-.nav a
-{
+
+#cell {
+    margin-right: 200px;
+}
+
+.nav a {
     display: flex;
-    color:#d8e0dc;
+    color: #d8e0dc;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     padding: 10px 0px;
     justify-content: space-around;
-    gap: 20px;
+    margin-right: 20px;
 }
-#main
-{
+
+
+
+#main {
     background-color: #3b5d50;
-    height: 403px;
-    img
-    {
-        border: 2px solid red;
-        width:600px;
-        align-self: self-end;
+    height: 530px;
+
+
+    #img {
+        position: absolute;
+        width: 600px;
+        right: 0;
+        top: 100px;
+        margin-right: 300px;
+        z-index: 2;
     }
+
+
+    #dotimg {
+        position: absolute;
+        object-position: right;
+        margin-top: 50px;
+        margin-left: 1250px;
+    }
+
 }
+
+#heading {
+    color: aliceblue;
+    width: 500px;
+    display: grid;
+    font-size: 55px;
+    font-weight: bold;
+    padding: 100px 100px 30px 100px;
+}
+
+#para {
+    font-size: medium;
+    line-height: 30px;
+    color: #ffffff80;
+    width: 470px;
+    margin-left: 100px;
+}
+.btn
+{
+    border: 1px solid red;
+    margin-top: 30px;
+    width:160px;
+    height: 55px;
+    border-radius: 20px;
+    margin-left: 150px;
+    
+}
+
+
+
+
+/* 
+#next
+{
+    border: 2px solid red;
+    height: 300px;
+    width: 1400px;
+    display: flex;
+   margin-top: 100px;
+   margin-left: 50px;
+
+   .img
+  {
+      
+
+  }
+} */
+/* .img2
+{
+  height: 216px;
+  width: 216px;
+  align-items: end;
+} */
