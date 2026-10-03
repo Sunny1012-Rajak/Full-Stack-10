@@ -38,7 +38,7 @@ body {
 .nav a {
     display: flex;
     color: #d8e0dc;
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 18px;
     padding: 10px 0px;
     justify-content: space-around;
@@ -53,7 +53,7 @@ body {
 
 
     #img {
-        position: absolute;
+        position:absolute;
         width: 600px;
         right: 0;
         top: 100px;
@@ -63,7 +63,7 @@ body {
 
 
     #dotimg {
-        position: absolute;
+        position:absolute;
         object-position: right;
         margin-top: 50px;
         margin-left: 1250px;
@@ -111,28 +111,50 @@ body {
     color: white;
 
 }
-#mai
+#heading1
 {
-    display: flex;
-    border: 1px solid red;
-}
-#heading2
-{
-    border: 2px solid red;
-    font-weight: 500;
-    font-size: 33px;
-    width: 310px;
+     color: black;
+    width: 300px;
     display: grid;
-    padding: 100px 100px 20px 100px;    
+    font-size: 35px;
+    font-weight:500;
+    padding: 100px 100px 30px 100px;
 }
 #para1
 {
-    font-size: medium;
-    line-height: 30px;
-    color: #49494980;
-    width: 470px;
-    margin-left: 100px; 
+    border: 1px solid red;
+    font-size:95%;
+    line-height: 25px;
+    color: grey;
+    width: 330px;
+    margin-left: 100px;
 }
+@media screen and (min-width: 400px) {
+   body{
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body{
+    grid-template-columns: auto auto auto auto;
+    row-gap: 20px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  body {
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 20px;
+  }
+
 
 
 
