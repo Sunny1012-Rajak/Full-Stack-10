@@ -17,6 +17,7 @@ body {
 }
 
 .furni {
+    display: flex;
     font-size: 24px;
     margin: 10px;
     margin-left: 30px;
@@ -113,11 +114,14 @@ body {
 }
 
 #content1 {
+    border:1px solid black;
     display: inline-block;
 }
 
 #content2 {
+     border:1px solid black;
     display: inline-block;
+
 }
 
 #heading1 {
@@ -150,7 +154,7 @@ body {
     color: white;
 }
 
-.img {
+.img1 {
     color: #d8e0dc;
     margin-top: 100px;
     width: 300px;
