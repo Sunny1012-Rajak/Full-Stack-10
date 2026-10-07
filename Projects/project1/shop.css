@@ -10,7 +10,7 @@ body {
 }
 
 #header {
-    height: 90px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .furni {
-    font-size: 15px;
+    font-size: 20px;
     margin: 10px;
     margin-left: 30px;
     padding-left: 60px;
@@ -28,7 +28,7 @@ body {
 
 .nav {
     display: flex;
-    gap: 40px;
+    gap: 30px;
 
 }
 
@@ -40,7 +40,7 @@ body {
     display: flex;
     color: #d8e0dc;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     padding: 10px 0px;
     justify-content: space-around;
     margin-right: 20px;
@@ -53,13 +53,22 @@ body {
 
 #shop
 {
-    padding: 90px 90px;
+    padding: 100px 90px;
     color: whitesmoke;
     background-color: #3b5d50;
-    font-size:40px;
+    font-size:50px;
     font-weight: bold;
 }
+main{
+    background-color: #d8e0dc;
+}
 
+.product
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 120px;
+}
 
 .product-images {
   text-align: center;
@@ -89,3 +98,53 @@ body {
   font-size: 1.1rem;
   color: #2f2f2f;
 }
+
+
+ .subscribe
+ {
+
+  margin-top: 30px;
+  margin-left: 50px;
+  p
+  {
+    padding: 1px;
+  }
+ }
+ 
+#button
+{
+  background-color:#3b5d50;
+  color: #d9e7e8;
+  i
+  {
+    padding: 20px;
+  }
+}
+ #footfurni
+ {
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-size: large;
+  color: #3b5d50;
+ }
+  #foot
+ {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 50px;
+
+ }
+ .footpara
+ {
+  margin-left: 100px;
+  width: 400px;
+  color: #888888;
+  margin-bottom: 40px;
+ }
+
+ .footabout
+ {
+  gap: 50px;
+  line-height: 30px;
+ }
