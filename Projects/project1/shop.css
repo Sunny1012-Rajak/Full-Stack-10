@@ -59,15 +59,33 @@ body {
     font-size:40px;
     font-weight: bold;
 }
-#color
-{
-    background-color: #d3d2d2;
-    height: 600px;
+
+
+.product-images {
+  text-align: center;
+  transition: 0.3s ease;
 }
-.img {
-    color: #d8e0dc;
-    margin-top: 100px;
-    margin-left: 30px;
-    width: 250px;
-    height: 300px;
+
+.product-images:hover {
+  transform: translateY(-20px);
+}
+
+.product-images img {
+  width: 100%;
+  max-width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.product-images h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #3b5d50;
+}
+
+.product-images strong {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #2f2f2f;
 }
