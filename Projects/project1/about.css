@@ -368,4 +368,5 @@ main {
 .footabout {
     gap: 50px;
     line-height: 30px;
+      list-style-type: none;
 }

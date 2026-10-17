@@ -54,7 +54,6 @@ ar2[0]="sunny";
 console.log(ar1);
 console.log(ar2);
 
-
 // ----------------array print with for loop--------------------------------
 
  const arr =[10,20,30,40,50];
