@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>DOM creation and manipulation</title>
+    <link rel="stylesheet" href="day9.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-primary px-5">
+            <div class="navbar-brand text-light">
+                dynamic dom creation and manipulation
+            </div>
+            <div class="nav-item">
+                <div class="nav-link text-light">sample
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container p-4 rounded shadow bg-white mt3 border" id="task1">
+            <h1>content</h1>
+        </div>
+
+        <hr>
+        <div class="container p-4 rounded shadow mt-3 border bg-danger-subtle" id="mylist">
+            <h1>my list</h1>
+        </div>
+        <hr>
+        <div class="container p-4 rounded shadow mt-3 border bg-dark-subtle">
+            <div class="row d-grid p-3 " id="card">
+                <div class="col-3 p-3 border shadow rounded bg-light">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolor quia quidem quos
+                        doloremque possimus veniam harum esse, atque sit accusamus odit, autem illo, corrupti
+                        accusantium incidunt cumque fuga fugiat eaque itaque facilis dolorum explicabo. At quia itaque
+                        expedita quidem, explicabo libero numquam unde beatae, incidunt cumque officiis, facere
+                        veritatis!</p>
+                    <div class="row px-3  ">
+                        <div class="col-6 p-2">
+                            <button class="btn btn-primary col-6">submit</button>
+                        </div>
+                        <div class="col-6 p-2">
+                            <button class="btn btn-outline-danger col6">check</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <!-- -----------------scripts----------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+    <script src="day9.js"></script>
+</body>
+
+</html>
