@@ -76,3 +76,54 @@ span{
     width: 200px;
     height: 100px;
 }
+/* ------------------------ */
+
+
+ .subscribe
+ {
+
+  margin-top: 30px;
+  margin-left: 50px;
+  p
+  {
+    padding: 1px;
+  }
+ }
+ 
+#button
+{
+  background-color:#3b5d50;
+  color: #d9e7e8;
+  i
+  {
+    padding: 20px;
+  }
+}
+ #footfurni
+ {
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-size: large;
+  color: #3b5d50;
+ }
+  #foot
+ {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 50px;
+
+ }
+ .footpara
+ {
+  margin-left: 100px;
+  width: 400px;
+  color: #888888;
+  margin-bottom: 40px;
+ }
+
+ .footabout
+ {
+  gap: 50px;
+  line-height: 30px;
+ }
