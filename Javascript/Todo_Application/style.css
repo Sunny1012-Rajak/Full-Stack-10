@@ -19,13 +19,10 @@ header{
         }
     }
 }
-
-/* .container
+#task
 {
-     margin: 30px ;
-     display: flex;
-     button
-     {
-        width: 10%;
-     }
-} */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 500px;
+}

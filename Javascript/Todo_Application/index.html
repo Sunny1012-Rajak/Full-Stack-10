@@ -23,19 +23,25 @@
         <section class="container  border rounded
          shadow w-100 d-flex  m-auto mt-4 p-3 gap-3" >
                 <input type="text" name="task" class="form-control " placeholder="Enter your Task...." id="input">
-                <button class="btn btn-primary text-nowrap" onclick="addtask()">Add Task</button>
+                <button class="btn btn-primary text-nowrap" onclick="addtask()">
+                    Add Task
+                </button>
+        </section>
+        <section class=" container border rounded col-12 m-auto mt-4 mb-4 bg-body-secondary d-flex p-5 w-100">
+            <div  id="task">
+               <h4>Total Task</h4> 
+            </div>
+            <div  id="task">
+               <h4> Completed</h4>
+            </div>
+            <div  id="task">
+               <h4> Pending</h4>
+            </div>
         </section>
         <section class="container shadow w-100 d-flex m-auto mt-2 p-3 ">
                 <ol class="w-100" id="tasklist">
-                                <li class="p-3">
-
-                        <li class="p-3">
-                            <span>task1</span>
-                            <button>belete</button>
-                        </li>
                 </ol>
         </section>
-
     </main>
     <!-- ---------------------------------------------------------------------------------- -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

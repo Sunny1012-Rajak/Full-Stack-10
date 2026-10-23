@@ -3,7 +3,7 @@ function addtask() {
     const LI = document.createElement("li");
     LI.classList.add("p-3");
 
-    const SPAN = document.createComment("span");
+    const SPAN = document.createElement("span");
     SPAN.textContent = newtask;
 
     const BUTTON = document.createElement("button");
@@ -17,3 +17,4 @@ function addtask() {
 
     document.getElementById("input").value = "";
 }
+
