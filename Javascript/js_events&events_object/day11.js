@@ -48,6 +48,11 @@ document.getElementById("box9").addEventListener("dblclick",()=>{
     document.getElementById("box9").innerText="the text was changed by dblclick";
 }
 );
+// --------------------------------------------------------------------
 
+document.getElementById("LoginForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log("Login Done");
+});
 
 

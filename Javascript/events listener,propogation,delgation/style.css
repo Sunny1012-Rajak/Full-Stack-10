@@ -1,0 +1,19 @@
+#bubling
+{
+    border: 2px solid rebeccapurple;
+    width: 40%;
+    div
+    {
+        border: 1px solid #000;
+        padding: 30px;
+    }
+}
+#capture
+{
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    
+}

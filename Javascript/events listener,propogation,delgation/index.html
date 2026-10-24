@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>events listener,propogation delgation
+    </title>
+</head>
+
+<body>
+    <!-- --------------------------removelistener--------------- -->
+    <div>
+        <button id="btn1" > show notification</button>
+        <p id="para1">
+            <!-- your assignment dealidne is approching! -->
+        </p>
+        <button id="btn2">show attendence</button>
+        <p id="para2">
+            <!-- please check your atttendence status! -->
+        </p>
+        <button id="btn3"> stop notification</button>
+        <p></p>
+    </div>
+    <!-- ---------------------------- event bubbling ------------------------------>
+    <section id="bubling">
+        <div id="outer">
+            this is outer div
+            <div id="inner">
+                this is inner div
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------event capturing------------------------- -->
+    <section id="capture">
+        <div>mahi</div>
+        <div>btech</div>
+        <div>aids</div>
+        <div>jnct</div>
+        <button id="view">submit</button>
+    </section>
+    <!-- ------------------------------event delegation---------------------------- -->
+     <section id="delegation">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+     </section>
+    <script src="day12.js"></script>
+</body>
+
+</html>
