@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head
+{
+    text-align: center;
+}
+
+#main
+{
+    text-align: center;
+}
+#btn
+{  
+    background-color: rgb(161, 236, 175);
+    color: black;
+    padding: 10px; 
+}
+#second
+{
+    text-align: center;
+}
