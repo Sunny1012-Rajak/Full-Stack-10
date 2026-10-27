@@ -33,16 +33,41 @@ const marks="89";
 const fee="9000.443";
 console.log("parseint: "+parseInt(marks));
 console.log("parsefloat: "+parseFloat(fee));
-// console.log("isinteger: "+marks.isI);
-// console.log("isfinite: "+isFinite(999999999999));
-console.log("issafeinteger: ");
+console.log("isinteger: "+marks.isI);
+console.log("isfinite: "+isFinite(999999999999));
+console.log("issafeinteger: "+Number.isSafeInteger(fee));
+
+const percent=234.56;
+console.log("tofixed: "+percent.toFixed(0));
+console.log("toprecision: " +percent.toPrecision(1));
+console.log("toexponential: "+percent.toExponential(2));
+console.log("tostring: "+percent.toString());
+console.log("typeoftoString: "+typeof percent.toString());
+console.log("floor: "+Math.floor(-6.3));
+console.log("truncate: "+Math.trunc(-7.8));
+console.log("ceil: "+Math.ceil(7.08));
+console.log("floor: "+Math.floor(7.08));
+console.log("round: "+Math.round(6.7));
+ console.log("minimum: "+Math.min() );
+console.log("cuberoot: "+Math.cbrt(-125));
+console.log("hypotenius: "+Math.hypot(8, 15));
+
+
+// ----------------------------------------random generation---------------------uig
+
+console.log("random: "+Math.floor(Math.random() * 10));
 
 
 
 
 
 
-console.log(Number.isNaN('hello'));
+
+
+
+
+
+// console.log(Number.isNaN('hello'));
 
 
 
