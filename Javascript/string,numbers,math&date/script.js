@@ -1,47 +1,9 @@
 
-// -------------------------string methods and manipulation-------------------
-const str=" sunny rajak ";
-console.log("trim: "+str.trim());
 
-const str1="i am learning java";
-console.log("touppercase: "+str1.toUpperCase());
 
-const str2="I AM LEARNING JAVA";
-console.log("tolowercase: "+str2.toLowerCase());
+// console.log(includes("jak"));
 
-let str3="mahi mishra";
-console.log("slice: "+str3.slice(2,7));
-console.log("using at(): "+str3.at(3));
 
-const str4="rajaksunny@259.com";
-console.log("include(): "+str4.includes("@"));
-console.log("endswith: "+str4.endsWith(".com"))
-
-const str5="html is used in webdevelopment";
-console.log("replaceall: "+str5.replaceAll("html" ,"javascript"));
-
-const str6="sunny";
-const str7="rajak";
-console.log(str6+" "+str7);
-
-const str8="java,html,css,react";
-console.log("split: "+str8.split(","));
-
-// --------------------------numbers----------------------------
-
-const marks="89";
-const fee="9000.443";
-console.log("parseint: "+parseInt(marks));
-console.log("parsefloat: "+parseFloat(fee));
-console.log("isinteger: "+marks.isI);
-console.log("isfinite: "+isFinite(999999999999));
-console.log("issafeinteger: "+Number.isSafeInteger(fee));
-
-const percent=234.56;
-console.log("tofixed: "+percent.toFixed(0));
-console.log("toprecision: " +percent.toPrecision(1));
-console.log("toexponential: "+percent.toExponential(2));
-console.log("tostring: "+percent.toString());
 console.log("typeoftoString: "+typeof percent.toString());
 console.log("floor: "+Math.floor(-6.3));
 console.log("truncate: "+Math.trunc(-7.8));
@@ -53,7 +15,7 @@ console.log("cuberoot: "+Math.cbrt(-125));
 console.log("hypotenius: "+Math.hypot(8, 15));
 
 
-// ----------------------------------------random generation---------------------uig
+// ----------------------------------------random generation---------------------
 
 console.log("random: "+Math.floor(Math.random() * 10));
 
@@ -64,16 +26,25 @@ console.log("random: "+Math.floor(Math.random() * 10));
 
 
 
+// ---------------------------Date object-----------------------------
 
 
+// ---------------------------------------------------date creation and method---------------
+const date = new Date(2026, 9, 22, 14, 35, 40);
 
+console.log(date.getFullYear());
+console.log(date.getMonth());
+console.log(date.getDate());
+console.log(date.getDay());
+console.log(date.getHours());
+console.log(date.getMinutes());
+console.log(date.getSeconds());
 // console.log(Number.isNaN('hello'));
 
 
 
 
-// console.log(str.charAt(3));
-// console.log(str.at(6));
+
 
 
 // // const str2=str.slice(3,8)
@@ -85,7 +56,7 @@ console.log("random: "+Math.floor(Math.random() * 10));
 // const slice=str.slice(4);
 // console.log(slice);
 // ---------------------------------------------------------------------------------------
-// console.log(str.lastIndexOf("mahi"));
+// 
 
 
 
