@@ -1,20 +1,6 @@
 
 
 
-// console.log(includes("jak"));
-
-
-console.log("typeoftoString: "+typeof percent.toString());
-console.log("floor: "+Math.floor(-6.3));
-console.log("truncate: "+Math.trunc(-7.8));
-console.log("ceil: "+Math.ceil(7.08));
-console.log("floor: "+Math.floor(7.08));
-console.log("round: "+Math.round(6.7));
- console.log("minimum: "+Math.min() );
-console.log("cuberoot: "+Math.cbrt(-125));
-console.log("hypotenius: "+Math.hypot(8, 15));
-
-
 // ----------------------------------------random generation---------------------
 
 console.log("random: "+Math.floor(Math.random() * 10));
