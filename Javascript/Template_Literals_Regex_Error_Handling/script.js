@@ -61,5 +61,6 @@ let stdname="mahi"
 let marks=45;
 console.log(`student maks ${stdname} score ${marks}`);
 
+// -------------------------
     
 
