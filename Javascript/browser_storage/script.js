@@ -1,37 +1,18 @@
+const data= {
+        name: "sumit",
+        branch: "aids",
+        rollno: 55,
+        project:"lms",
+    };
 
-const checkdata = document.getElementById("form");
+const ready=JSON.stringify(data);
+localStorage.setItem("mynewdata",ready);
+localStorage.setItem("myname","sunny");
+localStorage.setItem("yourname","mahi");
 
-checkdata.addEventListener("submit", (e) => {
+const geting=localStorage.getItem("mynewdata");
 
-    e.preventDefault();
 
-    const name = document.getElementById("username").value;
-/*
-    const isValid = false;
-
-    if (name.length === 0) {
-        isValid = false;
-    }
-
-    for (let i = 0; i < name.length; i++) {
-
-        if (((name[i] >= 'A' && name[i] <= 'Z') ||
-              (name[i] >= 'a' && name[i] <= 'z'))) {
-
-            isValid = true;
-            break;
-        }
-    }
-
-    console.log(isValid ? 'Valid' : 'Invalid');
-*/
-if(/^[A-Za-z]+$/ ==name)
-{
-    console.log(name.test("valid"));
-}
-else
-{
-    console.log(name.test("invalid"));
-    
-}
-});
+document
+.querySelector("body")
+.appendChild((document.createElement("div").innerText=geting));
