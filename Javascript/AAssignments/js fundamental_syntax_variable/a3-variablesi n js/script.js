@@ -1,3 +1,5 @@
+
+// -----------------------question 1------------------>
 const studentName="sunny rajak";
 let score =90;
 score=200;
