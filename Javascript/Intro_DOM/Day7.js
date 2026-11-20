@@ -1,4 +1,4 @@
-let text = document.querySelector("h1").innerText;
+ let text = document.querySelector("h1").innerText;
 
 console.log(text + " Raj vardhan");
 
