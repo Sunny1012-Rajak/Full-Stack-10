@@ -1,0 +1,11 @@
+.notice {
+  color: blue;
+  font-weight: bold;
+}
+
+
+.highlight {
+  background-color: lightyellow;
+  color: darkgreen;
+  padding: 10px;
+}
