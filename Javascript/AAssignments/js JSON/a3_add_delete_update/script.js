@@ -1,30 +1,27 @@
-// ----------------------question 1------------
+// --------------------question 1-----------------
 const student={
-    name:"sunil",
-    age:21,
+    name:"sunny rajak",
+    age:45
 };
-student.course="aids";
+console.log(student);
+const newproperty="course";
+newproperty.course="btech";
 student["city"]="bhopal";
+student["age"]=78;
+student.course="mtech";
+console.log(student);
 
-const newbatch="batch";
-student[newbatch]="proversion";
-console.log("before updation: "+student);
-
-student["age"]=34;
-student.course="aiml";
-console.log("after updation: "+student);
-
-// ------------------question 2--------------------
-const course1={
-    coursename:"cse",
-    duration:"4years",
+// -----------question 2--------------------;
+const course={
+    coursename:"data analytics",
+    duration:"4 years",
     fees:45000,
     mode:"offline",
-}
-course1.fees=76000;
-course1.instructor="jp morgan";
-console.log("before updation:"+course1);
+};
+console.log(course);
 
-
-
-
+course.fees=70000;
+const instructor="instructorname";
+instructor.instructorname="sr tiwari";
+delete course.mode;
+console.log(course);

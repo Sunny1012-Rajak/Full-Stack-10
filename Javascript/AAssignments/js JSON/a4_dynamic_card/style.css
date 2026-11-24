@@ -1,0 +1,39 @@
+.coursecard {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding-left: 40px;
+    background-color: azure;
+    h2{
+        color: darkblue;
+        font-weight: bold;
+    }
+
+}
+
+#courseContainer {
+    border: 1px solid black;
+    margin: 40px;
+    text-align: center;
+    background-color: rgb(243, 239, 234);
+}
+/* -------------------------------------------------------- */
+#studentContainer
+{
+    border: 1px solid black;
+    margin: 40px;
+    text-align: center;
+background-color: rgb(125, 187, 218);
+}
+.student-card
+{
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: beige;
+    h3
+    {
+        color: darkslategray;
+    }
+    color: lightcoral;
+}
