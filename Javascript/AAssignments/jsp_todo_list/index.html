@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>TO-DO List</title>
+</head>
+
+<body>
+    <div class="head-body p-3 ">
+        <h1 class="list fw-bolder">TO-DO List</h1>
+        <p>Organize your day,one task at a time</p>
+    </div>
+   / <div class="listcontain container shadow-lg bg-body ">
+        <div class="startcontent d-flex justify-content-around ">
+            <span id="start total" class="fw-bolder border-3 container bg-info-subtle w-25" >
+                <h2 class="totalcount text-primary fw-bold">0</h2>
+                <p>Total Task</p>
+            </span>
+            <span id="start complete" class="fw-bolder container bg-success-subtle w-25 ">
+                <h2 class="Completecount text-success  fw-bold">0</h2>
+                <p>completed</p>
+            </span>
+            <span id="start pending" class="fw-bolder container bg-warning-subtle w-25 ">
+                <h2 class="pendingcount text-warning  fw-bold">0</h2>
+                <p>Pending</p>
+            </span>
+        </div>
+        <div id="input"  >
+            <input type="text" id="inputtext" placeholder="Enter a new task....">
+            <button id="addbtn">Add Task</button>
+        </div>
+        <div id="listcard">
+            <ul id="ullist"></ul>
+        </div>
+        <div id="footer">No tasks yet! Add your first task.</div>
+    </div>
+    
+        <footer>
+            Stay organized. Keep moving forward!
+        </footer>
+    <!-- ----------------scripts-------------------------------------------------------- -->
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
