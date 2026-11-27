@@ -52,6 +52,9 @@ span{
     color: white;
     border-style: none;
 }
+#addbtn:hover{
+    background-color: rgb(43, 135, 216);
+}
 #footer
 {
     text-align: center;
@@ -65,3 +68,63 @@ footer
     font-weight:bold;
     color: rgb(8, 76, 118) ;
 }
+@media(min-width:320px) and (max-width:767px)
+{ 
+    .startcontent h2 {
+        font-size: 22px;
+    }
+    .startcontent p {
+        font-size: 9px;
+    }
+
+    #inputtext {
+       width:180px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) 
+{
+     span{
+     padding: 5px 2px;
+       
+    }
+
+    .startcontent h2 {
+        font-size: 25px;
+    }
+    .startcontent p {
+        font-size: 14px;
+    }
+
+    #inputtext {
+       width: 400px;
+    }
+
+   button{
+    margin: 10px;
+    width:min-content;
+   }
+}
+@media screen and (min-width: 1024px)
+{
+     span{
+     padding: 5px 2px;
+       
+    }
+
+    .startcontent h2 {
+        font-size: 27px;
+    }
+    .startcontent p {
+        font-size: 16px;
+    }
+
+    #inputtext {
+       width:700px;
+    }
+
+   button{
+    margin: 10px;
+    width:min-content;
+   }
+}
+   
